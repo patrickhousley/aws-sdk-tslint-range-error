@@ -1,0 +1,25 @@
+{
+  "name": "aws-sdk-tslint-range-error",
+  "version": "1.0.0",
+  "description": "Simple project to reproduce an aws-sdk-js TSLint RangeError error.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --type-check --project tsconfig.json -e './src/**/*.spec.ts' './src/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickhousley/aws-sdk-tslint-range-error.git"
+  },
+  "author": "Patrick Housley <patrick.f.housley@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickhousley/aws-sdk-tslint-range-error/issues"
+  },
+  "homepage": "https://github.com/patrickhousley/aws-sdk-tslint-range-error#readme",
+  "devDependencies": {
+    "@types/node": "6.0.56",
+    "aws-sdk": "2.7.21",
+    "tslint": "4.3.1",
+    "typescript": "2.1.4"
+  }
+}
