@@ -1,6 +1,6 @@
 import * as AWS from 'aws-sdk';
 
-const options: AWS.CognitoIdentity.Types.ClientConfiguration = {
+const options: AWS.CognitoIdentity.ClientConfiguration = {
   apiVersion: '2014-06-30'
 };
 
